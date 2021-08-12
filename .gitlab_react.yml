@@ -1,0 +1,10 @@
+image: node:12.14.0
+
+stages:
+  - test
+
+some:
+  stage: test
+  script: 
+    - npm install
+    - npm run test
